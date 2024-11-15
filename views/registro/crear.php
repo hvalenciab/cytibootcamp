@@ -6,7 +6,7 @@
         <div class="paquete">
             <h3 class="paquete__nombre">Pase Gratis</h3>
             <ul class="paquete__lista">
-                <li class="paquete__elemento">Acceso Virtual a DevWebCamp</li>
+                <li class="paquete__elemento">Acceso Virtual a City BootCamp</li>
             </ul>
 
             <p class="paquete__precio">$0</p>
@@ -19,7 +19,7 @@
         <div class="paquete">
             <h3 class="paquete__nombre">Pase Presencial</h3>
             <ul class="paquete__lista">
-                <li class="paquete__elemento">Acceso Presencial a DevWebCamp</li>
+                <li class="paquete__elemento">Acceso presencial a City BootCamp</li>
                 <li class="paquete__elemento">Pase por 2 días</li>
                 <li class="paquete__elemento">Acceso a talleres y conferencias</li>
                 <li class="paquete__elemento">Acceso a las grabaciones</li>
@@ -27,7 +27,7 @@
                 <li class="paquete__elemento">Comida y Bebida</li>
             </ul>
 
-            <p class="paquete__precio">$199</p>
+            <p class="paquete__precio">$200</p>
 
             <div id="smart-button-container">
                 <div style="text-align: center;">
@@ -41,13 +41,15 @@
         <div class="paquete">
             <h3 class="paquete__nombre">Pase Virtual</h3>
             <ul class="paquete__lista">
-                <li class="paquete__elemento">Acceso Virtual a DevWebCamp</li>
+                <li class="paquete__elemento">Acceso Virtual a City BootCamp</li>
                 <li class="paquete__elemento">Pase por 2 días</li>
                 <li class="paquete__elemento">Acceso a talleres y conferencias</li>
                 <li class="paquete__elemento">Acceso a las grabaciones</li>
             </ul>
 
-            <p class="paquete__precio">$49</p>
+            <p class="paquete__precio">$100</p>
+
+          
 
             <div id="smart-button-container">
                 <div style="text-align: center;">
@@ -59,9 +61,12 @@
 </main>
 
   <script src="https://www.paypal.com/sdk/js?client-id=Adc6YGqAvfmtD_7WCDB9mf3AidMfM18ZQr49mGkIHEOF8XuFTW7aAMFuB09wVfMsKy54lOoFfpWqL3HS&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  
 
   <script>
     function initPayPalButton() {
+
+      // Pase presencial
       paypal.Buttons({
         style: {
           shape: 'rect',
@@ -72,7 +77,7 @@
 
         createOrder: function(data, actions) {
           return actions.order.create({
-            purchase_units: [{"description":"1","amount":{"currency_code":"USD","value":199}}]
+            purchase_units: [{"description":"1","amount":{"currency_code":"USD","value":10}}]
           });
         },
 
@@ -114,7 +119,7 @@
 
         createOrder: function(data, actions) {
           return actions.order.create({
-            purchase_units: [{"description":"2","amount":{"currency_code":"USD","value":49}}]
+            purchase_units: [{"description":"2","amount":{"currency_code":"USD","value":150}}]
           });
         },
 

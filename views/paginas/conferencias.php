@@ -1,6 +1,7 @@
 <main class="agenda">
     <h2 class="agenda__heading">Talleres & Conferencias</h2>
-    <p class="agenda__descripcion">Talleres y Conferencias dictados por expertos en desarrollo web</p>
+    <p class="agenda__descripcion">Nuestro ciclo de talleres y conferencias está diseñado para impulsar tu desarrollo profesional, 
+        <br>acercándote a las últimas tendencias y herramientas en Tecnología de la Información.</p>
 
     <div class="eventos">
         <h3 class="eventos__heading">&lt;Conferencias /></h3>

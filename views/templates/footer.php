@@ -4,13 +4,16 @@
             <h3 class="footer__logo">
                 Cyti BootCamp
             </h3>
-
             <p class="footer__texto">
            Evento anual que reúne a profesionales, expertos y entusiastas de la tecnología para explorar las últimas tendencias y avances en la industria de TI.
             </p>
         </div>
 
-        <nav class="menu-redes"> 
+        
+        
+            <div class="footer__conenido">
+                <h4>SÍGUENOS</h4>
+            <nav class="menu-redes"> 
             <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://facebook.com/">
                 <span class="menu-redes__ocultar">Facebook</span>
             </a> 
@@ -30,6 +33,7 @@
                 <span class="menu-redes__ocultar">Github</span>
             </a>
         </nav>
+        </div>
     </div>
 
     <p class="footer__copyright">

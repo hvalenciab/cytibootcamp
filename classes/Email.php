@@ -37,7 +37,7 @@ class Email {
          $mail->CharSet = 'UTF-8';
 
          $contenido = '<html>';
-         $contenido .= "<p><strong>Hola " . $this->nombre .  "</strong> Has Registrado Correctamente tu cuenta en Cyti Bootcamp; pero es necesario confirmarla</p>";
+         $contenido .= "<p><strong>Hola " . $this->nombre .  "</strong> has registrado correctamente tu cuenta en Cyti BootCamp; pero es necesario confirmarla.</p>";
          $contenido .= "<p>Presiona aquí para: <a href='" . $_ENV['HOST'] . "/confirmar-cuenta?token=" . $this->token . "'>Confirmar tu cuenta</a>";       
          $contenido .= "<p>Si tu no creaste esta cuenta; puedes ignorar el mensaje</p>";
          $contenido .= '</html>';

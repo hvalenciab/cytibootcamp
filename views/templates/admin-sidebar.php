@@ -32,6 +32,6 @@
             <span class="dashboard__menu-texto">
                 Regalos
             </span>    
-        </a>
+        </a> 
     </nav>
 </aside>

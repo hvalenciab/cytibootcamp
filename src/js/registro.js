@@ -116,7 +116,7 @@ import Swal from 'sweetalert2'
             if(resultado.resultado) {
                 Swal.fire(
                     'Registro Exitoso',
-                    'Tus conferencias se han almacenado y tu registro fue exitoso, te esperamos en DevWebCamp',
+                    'Tus conferencias se han almacenado y tu registro fue exitoso, te esperamos en City BootCamp',
                     'success'
                 ).then( () => location.href = `/boleto?id=${resultado.token}`) 
             } else {

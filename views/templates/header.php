@@ -23,7 +23,7 @@
             <p class="header__texto">Enero 13-16 - 2025</p>
             <p class="header__texto header__texto--modalidad">En Línea - Presencial</p>
 
-            <a href="/registro" class="header__boton">Comprar acceso</a>
+            <!-- <a href="/registro" class="header__boton">Comprar acceso</a> -->
         </div>
     </div>
 </header>
@@ -38,7 +38,6 @@
             <a href="/cytibootcamp" class="navegacion__enlace <?php echo pagina_actual('/cytibootcamp') ? 'navegacion__enlace--actual' : ''; ?>">Evento</a>
             <a href="/paquetes" class="navegacion__enlace <?php echo pagina_actual('/paquetes') ? 'navegacion__enlace--actual' : ''; ?>">Paquetes</a>
             <a href="/conferencias" class="navegacion__enlace <?php echo pagina_actual('/conferencias') ? 'navegacion__enlace--actual' : ''; ?>">Talleres / Conferencias</a>
-            <a href="/registro" class="navegacion__enlace <?php echo pagina_actual('/registro') ? 'navegacion__enlace--actual' : ''; ?>">Comprar acceso</a>
         </nav>
     </div>
 </div>

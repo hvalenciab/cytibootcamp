@@ -16,3 +16,35 @@
         line-height: 2;
     }
 }
+
+//CSS para las barras de skills
+
+
+.contenedor-skills {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  .skill-text {
+    color: v.$azul;
+    font-weight: 500;
+  }
+
+  .fa-brands {
+    color: #f44336;
+    font-size: 6rem;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 4px; /* Add top padding */
+    padding-bottom: 4px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #f44336;} /* rojo */
+  .css {width: 90%; background-color: #2196F3;} /* azul */
+  .js {width: 65%; background-color: #cec223;} /* amarillo */
+  .mysql {width: 75%; background-color: #2b0124;} /* morado */
+  .phyton {width: 70%; background-color: #05b6b6;} /* aqua */
+  .c {width: 85%; background-color: #04AA6D;} /* verde */
+  .php {width: 88%; background-color: #808080;} /* Dark Grey */

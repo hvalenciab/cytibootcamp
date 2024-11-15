@@ -5,33 +5,61 @@
 <div class="eventos-registro">
     <main class="eventos-registro__listado">
         <h3 class="eventos-registro__heading--conferencias">&lt;Conferencias /></h3>
-        <p class="eventos-registro__fecha">Viernes 5 de Octubre</p>
+        <p class="eventos-registro__fecha">Lunes 13 de enero</p>
 
         <div class="eventos-registro__grid">
-            <?php foreach($eventos['conferencias_v'] as $evento ) { ?>
+            <?php foreach($eventos['conferencias_l'] as $evento ) { ?>
                 <?php include __DIR__ . '/evento.php'; ?>
             <?php } ?>
         </div>
 
-        <p class="eventos-registro__fecha">Sábado 6 de Octubre</p>
+        <p class="eventos-registro__fecha">Martes 14 de enero</p>
         <div class="eventos-registro__grid">
-            <?php foreach($eventos['conferencias_s'] as $evento ) { ?>
+            <?php foreach($eventos['conferencias_m'] as $evento ) { ?>
+                <?php include __DIR__ . '/evento.php'; ?>
+            <?php } ?>
+        </div>
+
+        <p class="eventos-registro__fecha">Miércoles 15 de enero</p>
+        <div class="eventos-registro__grid">
+            <?php foreach($eventos['conferencias_mi'] as $evento ) { ?>
+                <?php include __DIR__ . '/evento.php'; ?>
+            <?php } ?>
+        </div>
+
+        <p class="eventos-registro__fecha">Jueves 16 de enero</p>
+        <div class="eventos-registro__grid">
+            <?php foreach($eventos['conferencias_j'] as $evento ) { ?>
                 <?php include __DIR__ . '/evento.php'; ?>
             <?php } ?>
         </div>
 
         <h3 class="eventos-registro__heading--workshops">&lt;Talleres /></h3>
-        <p class="eventos-registro__fecha">Viernes 5 de Octubre</p>
+        <p class="eventos-registro__fecha">Lunes 13 de enero</p>
 
         <div class="eventos-registro__grid eventos--workshops">
-            <?php foreach($eventos['workshops_v'] as $evento ) { ?>
+            <?php foreach($eventos['talleres_l'] as $evento ) { ?>
                 <?php include __DIR__ . '/evento.php'; ?>
             <?php } ?>
         </div>
 
-        <p class="eventos-registro__fecha">Sábado 6 de Octubre</p>
+        <p class="eventos-registro__fecha">Martes 14 de enero</p>
         <div class="eventos-registro__grid eventos--workshops">
-            <?php foreach($eventos['workshops_s'] as $evento ) { ?>
+            <?php foreach($eventos['talleres_m'] as $evento ) { ?>
+                <?php include __DIR__ . '/evento.php'; ?>
+            <?php } ?>
+        </div>
+
+        <p class="eventos-registro__fecha">Miércoles 15 de enero</p>
+        <div class="eventos-registro__grid eventos--workshops">
+            <?php foreach($eventos['talleres_mi'] as $evento ) { ?>
+                <?php include __DIR__ . '/evento.php'; ?>
+            <?php } ?>
+        </div>
+
+        <p class="eventos-registro__fecha">Jueves 16 de enero</p>
+        <div class="eventos-registro__grid eventos--workshops">
+            <?php foreach($eventos['talleres_j'] as $evento ) { ?>
                 <?php include __DIR__ . '/evento.php'; ?>
             <?php } ?>
         </div>

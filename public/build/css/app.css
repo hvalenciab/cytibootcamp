@@ -348,6 +348,11 @@ h3 {
   font-size: 3rem;
 }
 
+h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .text-center {
   text-align: center;
 }
@@ -396,6 +401,56 @@ h3 {
   line-height: 2;
 }
 
+.contenedor-skills {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skill-text {
+  color: #007df4;
+  font-weight: 500;
+}
+
+.fa-brands {
+  color: #f44336;
+  font-size: 6rem;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 4px; /* Add top padding */
+  padding-bottom: 4px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #f44336;
+} /* rojo */
+.css {
+  width: 90%;
+  background-color: #2196F3;
+} /* azul */
+.js {
+  width: 65%;
+  background-color: #cec223;
+} /* amarillo */
+.mysql {
+  width: 75%;
+  background-color: #2b0124;
+} /* morado */
+.phyton {
+  width: 70%;
+  background-color: #05b6b6;
+} /* aqua */
+.c {
+  width: 85%;
+  background-color: #04AA6D;
+} /* verde */
+.php {
+  width: 88%;
+  background-color: #808080;
+} /* Dark Grey */
 .paquetes__grid {
   width: min(95%, 140rem);
   margin: 0 auto;
@@ -1358,7 +1413,7 @@ h3 {
 }
 @media (min-width: 768px) {
   .menu-redes {
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 

@@ -170,19 +170,35 @@ class RegistroController {
             $evento->ponente = Ponente::find($evento->ponente_id);
             
             if($evento->dia_id === "1" && $evento->categoria_id === "1") {
-                $eventos_formateados['conferencias_v'][] = $evento;
+                $eventos_formateados['conferencias_l'][] = $evento;
             }
 
+             
             if($evento->dia_id === "2" && $evento->categoria_id === "1") {
-                $eventos_formateados['conferencias_s'][] = $evento;
+                $eventos_formateados['conferencias_m'][] = $evento;
+            }
+
+            if($evento->dia_id === "3" && $evento->categoria_id === "1") {
+                $eventos_formateados['conferencias_mi'][] = $evento;
+            }
+            
+            if($evento->dia_id === "4" && $evento->categoria_id === "1") {
+                $eventos_formateados['conferencias_j'][] = $evento;
             }
 
             if($evento->dia_id === "1" && $evento->categoria_id === "2") {
-                $eventos_formateados['workshops_v'][] = $evento;
+                $eventos_formateados['talleres_l'][] = $evento;
             }
 
             if($evento->dia_id === "2" && $evento->categoria_id === "2") {
-                $eventos_formateados['workshops_s'][] = $evento;
+                $eventos_formateados['talleres_m'][] = $evento;
+            }
+            if($evento->dia_id === "3" && $evento->categoria_id === "2") {
+                $eventos_formateados['talleres_mi'][] = $evento;
+            }
+
+            if($evento->dia_id === "4" && $evento->categoria_id === "2") {
+                $eventos_formateados['talleres_j'][] = $evento;
             }
         }
         

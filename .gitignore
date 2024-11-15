@@ -1,0 +1,5 @@
+node_modules
+includes/.env
+vendor
+.DS_Store
+
